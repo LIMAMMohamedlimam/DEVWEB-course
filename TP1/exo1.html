@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EXO1</title>
+</head>
+<body>
+  <br>
+    <form action="page1.php" method="post">
+        <input type="hidden" name="form_id"  value="exo1" >
+        <label for="name">NOM</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="prenom">Prenom</label>
+        <input type="text" id="prenom" name="prenom">
+        <br><br>
+
+        <label>Sex:</label><br>
+        <input type="radio" id="male" name="sex" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="sex" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="class">Select Class</label>
+        <select id="class" name="class">
+            <option value="">--Veuillez choisir une option--</option>
+            <option value="Web">Web</option>
+            <option value="XML">XML</option>
+            <option value="Java">Java</option>
+            <option value="Unix">Unix</option>
+            <option value="C">C</option>
+            <option value="C#">C#</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <?php include 'page1.php'; ?>
+</body>
+</html>

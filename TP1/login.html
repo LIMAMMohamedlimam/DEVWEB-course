@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Login Page </title>
+  <style>
+  form {
+  border: 3px solid #f1f1f1;
+  }
+  .container {
+  padding: 25px;
+  background-color: lightblue;
+  }
+  </style>
+</head>
+<body>
+  <center> <h1> Login Form </h1> </center>
+  <form action="page1.php" method="POST">
+    <input type="hidden" name="form_id" value="login">
+  <div class="container">
+    <label>Username : </label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+    <label>Password : </label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+    <input type="submit" value = "login">
+  </div>
+ </form>
+  <?php include 'page1.php'; ?>
+</body>
+</html>
