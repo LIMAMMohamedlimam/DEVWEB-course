@@ -15,7 +15,7 @@ if ($result->num_rows > 0) {
     
     // les donnés 
     while($row = $result->fetch_assoc()) {
-        echo "<tr><td>" . $row["id"]. "</td><td>" . $row["prénom"]. "</td><td>" . $row["nom"]. "</td><td>" . $row["age"]. "</td><td>" . $row["email"]. "</td></tr>";
+        echo "<tr><td>" . $row["id"]. "</td><td>" . $row["prenom"]. "</td><td>" . $row["nom"]. "</td><td>" . $row["age"]. "</td><td>" . $row["email"]. "</td></tr>";
     }
     
     echo "</table>";
