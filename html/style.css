@@ -1,0 +1,36 @@
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+li{
+  background-color: red;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px 5px 0px 0px;
+  color: white;
+}
+
+.l1{
+  background-color: yellow;
+}
+
+.l2{
+  background-color: green;
+}
+
+.l3{
+  background-color: blue;
+}
+
+.l1:hover {
+  background-color: rgba(255, 255, 0,0.8);
+}
+
+.l2:hover {
+  background-color: rgba(0, 128, 0, 0.15);
+}
+
+.l3:hover {
+  background-color: rgba(0, 0, 255, 0.15);
+}
